@@ -12,18 +12,16 @@ runs-on: ubuntu-latest
 
 ```
 steps:
-  - name: Checkout Repository
-    uses: actions/checkout@v4
+  - uses: actions/checkout@v4
 
-  - name: Setup Node.js
-    uses: actions/setup-node@v4
+  - uses: actions/setup-node@v4
     with:
-      node-version: 18
+      node-version: '18'
 
   - name: Install HonKit
     run: npm install -g honkit
 
-  - name: Install Project Dependencies
+  - name: Install Dependencies
     run: honkit install
 
   - name: Build Website
@@ -31,19 +29,19 @@ steps:
 
   - name: Install Calibre
     run: |
-      sudo apt update
-      sudo apt install -y calibre
+      sudo apt-get update
+      sudo apt-get install -y calibre
 
   - name: Generate EPUB
-    run: honkit epub ./php-learning-book.epub
+    run: honkit epub php-learning-book.epub
 
   - name: Generate PDF
-    run: honkit pdf ./php-learning-book.pdf
+    run: honkit pdf . php-learning-book.pdf
 
-  - name: Upload Artifacts
+  - name: Upload Files
     uses: actions/upload-artifact@v4
     with:
-      name: php-learning-book
+      name: book-files
       path: |
         php-learning-book.epub
         php-learning-book.pdf
