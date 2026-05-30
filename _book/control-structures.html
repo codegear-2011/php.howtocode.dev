@@ -1,0 +1,853 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>কন্ট্রোল স্ট্রাকচারস · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.2.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="functions.html" />
+    
+    
+    <link rel="prev" href="constants-expressions-operators.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    শুরুর আগে
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="installation.html">
+            
+                <a href="installation.html">
+            
+                    
+                    ইনস্টলেশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="basics.html">
+            
+                <a href="basics.html">
+            
+                    
+                    ল্যাঙ্গুয়েজ ব্যাসিকস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="variables-data-types.html">
+            
+                <a href="variables-data-types.html">
+            
+                    
+                    ভ্যারিয়েবল ও ডাটা টাইপস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="constants-expressions-operators.html">
+            
+                <a href="constants-expressions-operators.html">
+            
+                    
+                    কন্সট্যান্টস, এক্সপ্রেশনস ও অপারেটরস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="control-structures.html">
+            
+                <a href="control-structures.html">
+            
+                    
+                    কন্ট্রোল স্ট্রাকচারস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="functions.html">
+            
+                <a href="functions.html">
+            
+                    
+                    ফাংশনস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="mastering-array.html">
+            
+                <a href="mastering-array.html">
+            
+                    
+                    মাস্টারিং এ্যারে
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="common-array-functions.html">
+            
+                <a href="common-array-functions.html">
+            
+                    
+                    কমন এ্যারে ফাংশনস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="oop/">
+            
+                <a href="oop/">
+            
+                    
+                    অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="oop/oop-class-and-objects.html">
+            
+                <a href="oop/oop-class-and-objects.html">
+            
+                    
+                    ক্লাস এবং অবজেক্ট
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="oop/oop-method-and-property.html">
+            
+                <a href="oop/oop-method-and-property.html">
+            
+                    
+                    মেথড এবং প্রোপার্টি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="oop/oop-static-and-non-static-context.html">
+            
+                <a href="oop/oop-static-and-non-static-context.html">
+            
+                    
+                    স্ট্যাটিক ও নন-স্ট্যাটিক কনটেক্সট
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="oop/oop-inheritance.html">
+            
+                <a href="oop/oop-inheritance.html">
+            
+                    
+                    ইনহেরিট্যান্স
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="oop/oop-visibility.html">
+            
+                <a href="oop/oop-visibility.html">
+            
+                    
+                    ভিজিবিলিটি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.6" data-path="oop/oop-constructors-and-destructors.html">
+            
+                <a href="oop/oop-constructors-and-destructors.html">
+            
+                    
+                    কনস্ট্রাক্টর এবং ডেস্ট্রাক্টর
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.7" data-path="oop/oop-interface.html">
+            
+                <a href="oop/oop-interface.html">
+            
+                    
+                    ইন্টারফেইস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.8" data-path="oop/oop-abstraction.html">
+            
+                <a href="oop/oop-abstraction.html">
+            
+                    
+                    এ্যাবস্ট্রাকশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.9" data-path="oop/oop-traits.html">
+            
+                <a href="oop/oop-traits.html">
+            
+                    
+                    ট্রেইটস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.10" data-path="oop/oop-magic-methods.html">
+            
+                <a href="oop/oop-magic-methods.html">
+            
+                    
+                    ম্যাজিক মেথডস
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="namespace.html">
+            
+                <a href="namespace.html">
+            
+                    
+                    নেইমস্পেইস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="filesystem.html">
+            
+                <a href="filesystem.html">
+            
+                    
+                    ফাইলসিস্টেম
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="design-patterns/">
+            
+                <a href="design-patterns/">
+            
+                    
+                    ডিজাইন প্যাটার্ন
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="design-patterns/singleton-pattern.html">
+            
+                <a href="design-patterns/singleton-pattern.html">
+            
+                    
+                    সিঙ্গেলটোন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="design-patterns/observer-pattern.html">
+            
+                <a href="design-patterns/observer-pattern.html">
+            
+                    
+                    অবজার্ভার
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="design-patterns/adapter-pattern.html">
+            
+                <a href="design-patterns/adapter-pattern.html">
+            
+                    
+                    অ্যাডাপ্টার
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="design-patterns/factory-pattern.html">
+            
+                <a href="design-patterns/factory-pattern.html">
+            
+                    
+                    ফ্যাক্টরী
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="design-patterns/dependency-injection-pattern.html">
+            
+                <a href="design-patterns/dependency-injection-pattern.html">
+            
+                    
+                    ডিপেন্ডেন্সি ইনজেকশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="design-patterns/facade-pattern.html">
+            
+                <a href="design-patterns/facade-pattern.html">
+            
+                    
+                    ফ্যাসাড
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.7" data-path="design-patterns/strategy-pattern.html">
+            
+                <a href="design-patterns/strategy-pattern.html">
+            
+                    
+                    স্ট্রাটেজি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.8" data-path="design-patterns/iterator-pattern.html">
+            
+                <a href="design-patterns/iterator-pattern.html">
+            
+                    
+                    ইটারেটর
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.9" data-path="design-patterns/proxy-pattern.html">
+            
+                <a href="design-patterns/proxy-pattern.html">
+            
+                    
+                    প্রক্সি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.10" data-path="design-patterns/decorator-pattern.html">
+            
+                <a href="design-patterns/decorator-pattern.html">
+            
+                    
+                    ডেকোরেটর
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >কন্ট্রোল স্ট্রাকচারস</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="কন্ট্রোল-স্ট্রাকচারস">কন্ট্রোল স্ট্রাকচারস</h1>
+<p>কন্ট্রোল স্ট্রাকচার - নাম শুনেই আন্দাজ করা যায় কন্ট্রোল রিলেটেড ব্যাপার । একটা পিএইচপি প্রোগ্রামের ফ্লো কন্ট্রোল করাই কন্ট্রোল স্ট্রাকচারের কাজ । আমরা জানি পিএইচপিতে আমাদের কোড লাইন বাই লাইন এক্সিকিউট করা হয় । কখনো কখনো আমাদের এই এক্সিকিউশন কোন শর্তের উপর নির্ভর করে । শর্ত সাপেক্ষে প্রোগ্রাম এর কোন অংশটুকু পিএইচপি এক্সিকিউট করবে সেটা আমরা এই কন্ট্রোল স্ট্রাকচারগুলোর মাধ্যমে নির্ধারণ করে দিবো ।</p>
+<h3 id="কোড-ব্লক">কোড ব্লক</h3>
+<p>পিএইচপিতে আমরা কয়েকটা স্টেটমেন্টকে একটা গ্রুপ কিংবা ব্লক আকারে ডিফাইন করতে পারি কার্লি ব্রেইস (<code>{ }</code>) ব্যবহার করার মাধ্যমে । ব্লক তৈরি করার সুবিধা হলো যখন কোন শর্ত সাপেক্ষে নির্দিষ্ট কিছু স্টেটমেন্ট রান করতে হয় তখন আমরা ঐ স্টেটমেন্টগুলোকে একটি কোড ব্লকে রেখে পিএইচপি কে বলে দেই অমুক ঘটনা সত্য হলে এই কোড ব্লকের ভিতরে রাখা স্টেটমেন্ট রান করতে । কন্ট্রোল স্ট্রাকচারের সাথে কোড ব্লকের সম্পর্ক গভীর ।</p>
+<h3 id="ইফ-এলস-if-else">ইফ, এলস (If, Else)</h3>
+<p>কোন একটি বিশেষ শর্ত সাপেক্ষে কোন কোড ব্লক এক্সিকিউট করতে আমরা ইফ, এলস ব্যবহার করি । ইফ এর পরে আমরা একটি এক্সপ্রেশন দেই, এটি যদি সত্য হয় (অর্থাৎ এটার বুলিয়ান ভ্যালু <code>true</code> হয়) তাহলে ইফ ব্লক রান করে । যদি আমরা সাথে একটি এলস ব্লকও দিয়ে দেই, তাহলে ইফ স্টেটমেন্ট <code>false</code> হলে এই বিকল্প ব্লক টি রান করে ।</p>
+<p>উদাহরণ:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+
+<span class="hljs-variable">$age</span> = <span class="hljs-number">10</span>; 
+
+<span class="hljs-keyword">if</span>(<span class="hljs-variable">$age</span> &gt; <span class="hljs-number">18</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"You are an adult!"</span>;
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"You are not an adult yet!"</span>;
+}
+</code></pre>
+<p>এখানে আমরা একটি ভ্যারিয়েবল নিয়েছি <code>$age</code> এরপর ইফ ব্লকে আমরা চেক করছি এই ভ্যারিয়েবল এর মান ১৮ অপেক্ষা বেশি কিনা । যদি ১৮ অপেক্ষা বেশি হয় তাহলে প্রথম ব্লক রান করবে । যদি না হয় তবে দ্বিতীয় ব্লক । উপরের কোডটি রান করলে আমরা দেখবো এলস ব্লক রান করেছে কারন এই ভ্যারিয়েবল এর মান আমরা শুরুতেই ১০ নির্ধারণ করে দিয়েছি যেটা নি:সন্দেহে ১৮ থেকে বড় না ।</p>
+<p>আমরা চাইলে একাধিক শর্তও যোগ করতে পারি <code>elseif</code> ব্যবহার করে । এসব ক্ষেত্রে প্রথমে ইফ ব্লক চেক করা হবে, এটা যদি সত্য না হয় তাহলে এলসইফ ব্লকগুলো একটা একটা করে চেক করা হবে । যদি কোনটাই <code>true</code> না হয় তাহলেই এলস ব্লকের কোড রান করবে । যেমন:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-variable">$a</span> &gt; <span class="hljs-variable">$b</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"a is bigger than b"</span>;
+} <span class="hljs-keyword">elseif</span> (<span class="hljs-variable">$a</span> == <span class="hljs-variable">$b</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"a is equal to b"</span>;
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"a is smaller than b"</span>;
+}
+</code></pre>
+<p>পুনশ্চ: একটি ইফ বা এলস কোড ব্লকের মধ্যে চাইলে আরো ইফ এলস ব্লক যোগ করা যায় । এটাকে নেস্টেড ব্লক বলা হয় ।</p>
+<h3 id="হোয়াইল-লুপ-while">হোয়াইল লুপ (While)</h3>
+<p>লুপ কি জিনিস তা আমরা সবাই কম বেশি জানি । হোয়াইল লুপের কাজ হচ্ছে আমাদের দিয়ে দেওয়া এক্সপ্রেশন যতক্ষণ পর্যন্ত সত্য হবে ততক্ষন পর্যন্ত সাথে দেওয়া কোড ব্লকটি এক্সিকিউট করা । প্রতিবার লুপ এর শুরুতে ঐ এক্সপ্রেশনটি পিএইচপি চেক করবে, যদি সত্য হয় তাহলে কোড ব্লকটি রান করবে, কোড ব্লক রান করা শেষ হলে সে আবার এক্সপ্রেশনটি চেক করবে - এভাবে চলতেই থাকবে যতক্ষণ পর্যন্ত ঐ এক্সপ্রেশন <code>true</code> রিটার্ন করবে । সুতরাং আমরা বুঝতে পারছি যদি আমাদের লুপ ভেঙ্গে বের হতে হয় তাহলে এমন কোন পরিবর্তন আনতে হবে যাতে ঐ এক্সপ্রেশন এর ভ্যালু আর সত্য না হয় । উদাহরণ দেখে নেই:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+
+<span class="hljs-variable">$i</span> = <span class="hljs-number">1</span>;
+<span class="hljs-keyword">while</span> (<span class="hljs-variable">$i</span> &lt;= <span class="hljs-number">10</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-variable">$i</span>++;  
+}
+
+<span class="hljs-keyword">echo</span> <span class="hljs-string">"I am outside the loop"</span>;
+</code></pre>
+<p>এই উদাহরণে দেখুন, আমরা শুরুতে <code>$i</code> এর ভ্যালু দিয়েছি ‍১ । এরপর হোয়াইল লুপে শর্ত দিয়েছি যে <code>$i</code> এর ভ্যালু যতক্ষন ১০ এর ছোট বা সমান হবে ততক্ষণ পর্যন্ত যেন সে কোড ব্লকটি রান করে । লক্ষ্য করুন এই কোড ব্লকের ভিতরে আমরা <code>$i</code> এর ভ্যালু শুধু আউটপুটই দেইনি, সেই সাথে এটার ভ্যালু ১ করে বাড়িয়ে দিয়েছি । প্রতিবার লুপের শুরুতে পিএইচপি চেক করবে ভ্যারিয়েবলটার ভ্যালু ১০ থেকে কম কিনা, এরপর সে ভ্যালুটা আউটপুট দিয়ে সাথে ১ যোগ করে দিবে । এভাবে লুপ চলতে চলতে একটা সময় এসে <code>$i</code> এর ভ্যালু বাড়তে বাড়তে ১০ এর বেশি হয়ে যাবে । তখন আর হোয়াইল লুপে দেওয়া শর্ত সত্য থাকবে না, পিএইচপি তখন লুপ থেকে বের হয়ে পরবর্তী কোড এক্সিকিউট করা শুরু করবে ।</p>
+<h3 id="ডু-হোয়াইল-লুপ-do-while">ডু-হোয়াইল লুপ (do-while)</h3>
+<p>আমরা দেখেছি হোয়াইল লুপ প্রথমেই শর্তটি চেক করে । যদি সত্য হয় তবেই সে কোড ব্লক রান করে । যদি এমন হয় যে প্রথমবারেই শর্তটি মিথ্যা হলো, তখন? তখন আর কোড ব্লকটি একবারো রান করবে না । ডু-হোয়াইল লুপের ব্যাপারটা একটু ভিন্ন । এখানে আমরা প্রথমে কোড ব্লক দিয়ে দেই, পিএইচপি এটা রান করে আগে, এরপর হোয়াইল লুপের কন্ডিশন টা চেক করে । যদি সত্য হয় তাহলে আবার কোড ব্লক রান করে, সত্য না হলে লুপ ভেঙ্গে বের হয়ে যায় ।</p>
+<p>যেহেতু ডু-হোয়াইল লুপে কোড ব্লক প্রথমে রান করে এবং এক্সপ্রেশন এর ভ্যালু পরে চেক করা হয় তাই নিশ্চিতভাবে বলা যায় যে প্রদত্ত কোড ব্লকটি অন্তত একবার রান করবেই । ঠিক এই একবার রান করা নিশ্চিত করার জন্যই হোয়াইল এর পরিবর্তে ডু-হোয়াইল ব্যবহার করা হয় ।</p>
+<p>কোড এক্সাম্পল দেখে নেই:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-variable">$i</span> = <span class="hljs-number">0</span>;
+<span class="hljs-keyword">do</span> {
+    <span class="hljs-keyword">echo</span> <span class="hljs-variable">$i</span>;
+} <span class="hljs-keyword">while</span> (<span class="hljs-variable">$i</span> &gt; <span class="hljs-number">0</span>);
+</code></pre>
+<p>দেখুন এখানে <code>$i</code> এর ভ্যালু ০ অপেক্ষা বেশি না হলেও কোড ব্লকটি রান করে এবং ০ আউটপুট দেয় ।</p>
+<h3 id="ফর-লুপ-for">ফর লুপ (for)</h3>
+<p>এটা একটু তুলনামূলকভাবে জটিল লুপ । এখানে আমরা ৩টা এক্সপ্রেশন দিয়ে দেই -</p>
+<ul>
+<li>প্রথমটা যখন প্রথমবার লুপ শুরু হবে তখন রান করা হবে । </li>
+<li>২য় টা হচ্ছে লুপের মূল শর্ত, হোয়াইল লুপের মত প্রতিবার লুপ শুরু হওয়ার সময় এটা চেক করা হবে । এটার বুলিয়ান ভ্যালু <code>true</code> হলেই কেবল লুপটি চলবে । </li>
+<li>৩য়টা প্রতিবার কোড ব্লক শেষ করে রান করা হয় । </li>
+</ul>
+<p>আমরা খুব সিম্পল একটা উদাহরণ দেখে নেই:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-variable">$i</span> = <span class="hljs-number">1</span>; <span class="hljs-variable">$i</span> &lt;= <span class="hljs-number">10</span>; <span class="hljs-variable">$i</span>++) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-variable">$i</span>;
+}
+</code></pre>
+<p>এখানে,</p>
+<ul>
+<li><code>$i = 1</code> এটা লুপ প্রথমবার শুরু হওয়ার সময়ই রান করবে । অর্থাৎ আমরা <code>$i</code> এর ভ্যালু ১ সেট করে নিলাম । </li>
+<li>এবার হলো শর্ত পরীক্ষা করার পালা । প্রতিবার লুপের শুরুতে চেক করা হবে <code>$i</code> এর ভ্যালু ১০ এর সমান কিংবা কম আছে কিনা । থাকলে কোড রান করবে, না হলে লুপ শেষ করে বের হয়ে যাবে । </li>
+<li>প্রতিবার লুপ শেষে আমরা ভ্যারিয়েবলটির ভ্যালু ১ করে বাড়িয়ে দিচ্ছি যাতে একটা সময় গিয়ে এটার ভ্যালু ১০ এর বেশি হয় । </li>
+</ul>
+<p>সংক্ষেপে এটাই হলো ফর লুপের কাহিনী । আমরা চাইলে যে কোন এক্সপ্রেশন ফাকা রাখতে পারি । যদি আমরা ভুলে বা ইচ্ছাকৃতভাবে ২য় এক্সপ্রেশনটি ফাকা রাখি, সেক্ষেত্রে ফর লুপটি চলতেই থাকবে কেননা এটি কতক্ষন পর্যন্ত চলতে হবে সেই নির্দেশনটা আমরা পিএইচপি কে দেই নি ।</p>
+<h3 id="ফর-ইচ-লুপ-foreach">ফর-ইচ লুপ (foreach)</h3>
+<p>কোন এ্যারে থেকে ভ্যালুগুলোকে একটা একটা নিয়ে কাজ করার জন্যই ফর-ইচ লুপ ব্যবহার করা হয় । এই লুপের এক্সপ্রেশন হিসেবে আমরা বলে দেই একটি এ্যারে থেকে কিভাবে প্রতিটা আইটেম নিতে হবে । এরপর সেই নির্দেশনা অনুযায়ী পিএইচপি আইটেমগুলোকে একটা একটা করে আমাদের কোড ব্লকে পাস করে । প্রতি লুপে এভাবে আমরা এ্যারের একেকটি আইটেম পাই । যতক্ষণ পর্যন্ত ঐ এ্যারের সবগুলো আইটেম একবার করে নেওয়া না হবে ততক্ষণ পর্যন্ত এই লুপ চলতেই থাকবে ।</p>
+<p>আমরা আমাদের এক্সপ্রেশন এ বলে দিতে পারি যে আমরা কি শুধু এ্যারের ভ্যালুটা চাই নাকি ইনডেক্স ভ্যালু দুটোই চাই । নিচের উদাহরণ দেখি:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+
+<span class="hljs-comment">// এই উদাহরণে শুধুই আইটেম টি নিবো</span>
+<span class="hljs-variable">$arr</span> = <span class="hljs-keyword">array</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+<span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$arr</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$value</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-variable">$value</span>;
+}
+
+<span class="hljs-comment">// এখানে আমরা ইনডেক্স এবং ভ্যালু দুটোই নিবো</span>
+<span class="hljs-variable">$arr2</span> = <span class="hljs-keyword">array</span>(<span class="hljs-string">"a"</span> =&gt; <span class="hljs-string">"abdullah"</span>, <span class="hljs-string">"b"</span> =&gt; <span class="hljs-string">"bahar"</span>);
+<span class="hljs-keyword">foreach</span>(<span class="hljs-variable">$arr2</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$k</span> =&gt; <span class="hljs-variable">$v</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-variable">$k</span>. <span class="hljs-string">"="</span>. <span class="hljs-variable">$v</span>;
+}
+</code></pre>
+<p>প্রথম উদাহরণে আমরা পিএইচপিকে বলে দিচ্ছি <code>$arr</code> এ্যারে থেকে একেকটি আইটেম নিয়ে সেটিকে <code>$value</code> ভ্যারিয়েবলে রাখতে । এরপর কোড ব্লকটি রান করতে । ২য় উদাহরণে, আমরা বলে দিচ্ছি ইনডেক্স এর ভ্যালু টা <code>$k</code> এবং আইটেম এর ভ্যালুটা <code>$v</code> ভ্যারিয়েবলে রেখে কোড ব্লকটি রান করাতে ।</p>
+<h3 id="সুইচ-switch">সুইচ (switch)</h3>
+<p>সুইচ ব্যবহার করে আমরা খুব সহজে কোন একটা এক্সপ্রেশন এর ভ্যালুর উপর নির্ভর করে অনেকগুলো সিদ্ধান্ত থেকে এক বা একাধিক বেছে নিতে পারি । এর আগে আমরা ইফ-এলস, এলস-ইফ এর ব্যবহার দেখেছি । যখন অনেকগুলো শর্ত পরপর চেক করার প্রয়োজন হয় তখন আমরা এলস-ইফ ব্যবহার করি, অনেকটা নিচের মত করে -</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-variable">$i</span> == <span class="hljs-number">0</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"i equals 0"</span>;
+} <span class="hljs-keyword">elseif</span> (<span class="hljs-variable">$i</span> == <span class="hljs-number">1</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"i equals 1"</span>;
+} <span class="hljs-keyword">elseif</span> (<span class="hljs-variable">$i</span> == <span class="hljs-number">2</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">"i equals 2"</span>;
+}
+</code></pre>
+<p>সাধারনত এরকমভাবে একগাদা এলস-ইফ ব্লক এ্যভয়েড করার জন্য সুইচ পারফেক্ট । এখানে আমরা কয়েকটা কন্ডিশন চেক করছি, প্রথমে দেখছি <code>$i</code> এর ভ্যালু শুন্য কিনা, এরপর চেক করছি এটির মান ১ কিনা, এরপর আবার দেখছি ২ কিনা । সুইচ এর মাধ্যমে এভাবে বার বার চেক না করে, একবারেই চেক করে মান অনুসারে সিদ্ধান্ত নেওয়া যায় । উপরের কোডই আমরা সুইচ ব্যবহার করে এভাবে লিখতে পারি -</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-keyword">switch</span> (<span class="hljs-variable">$i</span>) {
+    <span class="hljs-keyword">case</span> <span class="hljs-number">0</span>:
+        <span class="hljs-keyword">echo</span> <span class="hljs-string">"i equals 0"</span>;
+        <span class="hljs-keyword">break</span>;
+    <span class="hljs-keyword">case</span> <span class="hljs-number">1</span>:
+        <span class="hljs-keyword">echo</span> <span class="hljs-string">"i equals 1"</span>;
+        <span class="hljs-keyword">break</span>;
+    <span class="hljs-keyword">case</span> <span class="hljs-number">2</span>:
+        <span class="hljs-keyword">echo</span> <span class="hljs-string">"i equals 2"</span>;
+        <span class="hljs-keyword">break</span>;
+}
+</code></pre>
+<p>এখানে, আমরা <code>$i</code> এর ভ্যালুর উপর নির্ভর করে আমাদের সিদ্ধান্ত নিবো তাই এটাকে সুইচ এ পাস করা হয়েছে । এরপর আমাদের কোড ব্লকের ভিতরে কতগুলো <code>case</code> বা সম্ভাব্য ঘটনা বিচার করা হয়েছে । <code>case</code> এর সাথে আমরা প্রত্যাশিত ভ্যালু দিয়ে একেকটি কেইস ডিফাইন করি । যেমন, <code>case 0</code> মানে হলো <code>$i</code> এর মান যখন 0 হবে তখন এই কেইসটি সত্য । এরপর কোলন (<code>:</code>) দিয়ে আমরা আমাদের প্রয়োজনীয় কোড লিখি । এখানে আমরা একটা আউটপুট দিয়ে রেখেছি । এরপর যে কোন কেইস মিলে গেলে আমরা চাই সুইচ ব্লক থেকে বের হয়ে যেতে, তাই <code>break</code> এর ব্যবহার । <code>break</code> সম্পর্কে আমরা একটু পরেই জানবো । আপাতত জেনে রাখি, কোন কেইস এর পর ব্রেক না থাকলে ঐ কেইসটি ম্যাচ করেই পিএইচপি থেমে যাবে না, বরং পরবর্তী কেইসগুলাও ম্যাচ করে দেখবে । একাধিক কেইসও এভাবে ম্যাচ করা সম্ভব । তবে অধিকাংশ ক্ষেত্রেই আমরা চাইবো একটি কেইস ম্যাচ করলে সুইচ থেকে বের হয়ে যেতে ।</p>
+<h3 id="ব্রেক-break">ব্রেক (break)</h3>
+<p>যে কোন ধরণের কন্ট্রোল স্ট্রাকচার থেকে বের হয়ে আসতে ব্রেক ব্যবহার করা হয় । যেমন:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-variable">$array</span> = [<span class="hljs-string">"a"</span>, <span class="hljs-string">"b"</span>, <span class="hljs-string">"c"</span>, <span class="hljs-string">"d"</span>];
+<span class="hljs-keyword">foreach</span>(<span class="hljs-variable">$array</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$val</span>) {
+    <span class="hljs-keyword">echo</span> <span class="hljs-variable">$val</span>;
+    <span class="hljs-keyword">if</span>(<span class="hljs-variable">$val</span> == <span class="hljs-string">"b"</span>) {
+        <span class="hljs-keyword">break</span>;
+    }
+}
+</code></pre>
+<p>এই উদাহরণে আমরা দেখছি, এ্যারে থেকে সবগুলো আইটেম নেওয়ার আগেই লুপটি বন্ধ হয়ে যাচ্ছে, কারণ যখনই আইটেম এর ভ্যালু <code>b</code> হচ্ছে তখনই আমরা <code>break</code> স্টেটমেন্ট ব্যবহার করে লুপ থেকে বের হয়ে আসছি । ফলে বাকি আইটেমগুলো আর আউটপুটে আসছে না ।</p>
+<h3 id="কন্টিনিউ-continue">কন্টিনিউ (continue)</h3>
+<p>ব্রেক এর কাজ লুপ থেকে বের হয়ে যাওয়া, কন্টিনিউ এর কাজ বর্তমান লুপের বাকি অংশ স্কিপ করে সরাসরি পরবর্তী লুপ শুরু করা ।</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-variable">$i</span> = <span class="hljs-number">0</span>; <span class="hljs-variable">$i</span> &lt; <span class="hljs-number">5</span>; ++<span class="hljs-variable">$i</span>) {
+    <span class="hljs-keyword">if</span> (<span class="hljs-variable">$i</span> == <span class="hljs-number">2</span>) {
+        <span class="hljs-keyword">continue</span>; 
+    }
+    <span class="hljs-keyword">print</span> <span class="hljs-string">"<span class="hljs-subst">$i</span>\n"</span>;
+}
+</code></pre>
+<p>এই কোডটি রান করলে 2 আউটপুটে আসবে না, কারণ যখনই <code>$i</code> এর ভ্যালু ২ হবে তখনই পিএইচপি কন্টিনিউ স্টেটমেন্টটি দেখবে । তখন আর কোড ব্লকের বাকি অংশ রান না করেই পরবর্তী লুপে প্রবেশ করবে । তাই <code>print "$i\n";</code> এই অংশটি ২ এর বেলায় এক্সিকিউট করা হবে না, আউটপুটেও তাই ২ আসবে না । অর্থাৎ লুপিং এর সময় কন্টিনিউ ব্যবহার করলে পিএইচপি সাথে সাথে ব্লকের বাকি অংশ স্কিপ করে পরবর্তী আইটেমে চলে যায় ।</p>
+<h2 id="এক্সারসাইজ">এক্সারসাইজ</h2>
+<ol>
+<li>একটা স্ক্রিপ্ট লিখেন যেটা চলতি মাসের নাম নিবে এবং তার উপর ভিত্তি করে নিচের মেসেজ প্রিন্ট করবে। <ul>
+<li>যদি মাসের নাম November হয় তাহলে প্রিন্ট করবে,  Winter is comming.</li>
+</ul>
+</li>
+<li><p>যদি November না হয়, তাহলে প্রিন্ট করবে, You better stay in South. </p>
+<p><strong>হিন্টস :</strong> date('F', time()) এইটা ব্যবহার করে অাপনি, মাসের নাম নিতে পারবেন।</p>
+</li>
+</ol>
+<p>2.ধরুন অাপনি Zimbabwe এর একজন বাসিন্দা । অাপনার বন্ধু বিভিন্ন দেশে ঘুরে ঘুরে খেলা দেখে । সে অাপনাকে একদিন বলল, " ওমুক দেশটা খুব সুন্দর "। বন্ধুর কথা শুনে, অাপনার ঐদেশে ঘুরতে যেতে ইচ্ছে হল। কিন্তু সে অাপনাকে দেশেটির নাম বলেনি। বরং অাপনাকে একটি চিরকুট দিল। যাতে লেখা - "Bangladesh is beautiful country" । এবং সে অাপনাকে কতগুলো দেশের নামের লিস্ট দিল যেগুলো হল -"England", "Bangladesh", "Sri Lanka", "India" ।</p>
+<p>এখন এই দুটো তথ্যের উপর ভিত্তি করে অাপনাকে ঐদেশের নাম কি সেটা বলতে হবে।</p>
+<p> <strong>হিন্টস :</strong>  স্ট্রিং কে অ্যারেতে কনভার্ট করার জন্য explode() ফাংশনটি ব্যবহার করতে পারেন। ডিটেইলস : <a href="http://php.net/manual/en/function.explode.php" target="_blank">http://php.net/manual/en/function.explode.php</a></p>
+<p>অামরা পরবর্তিতে অারোও এক্সারসাইজ দেয়ার চেষ্টা করব।</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="constants-expressions-operators.html" class="navigation navigation-prev " aria-label="Previous page: কন্সট্যান্টস, এক্সপ্রেশনস ও অপারেটরস">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="functions.html" class="navigation navigation-next " aria-label="Next page: ফাংশনস">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"কন্ট্রোল স্ট্রাকচারস","level":"1.6","depth":1,"next":{"title":"ফাংশনস","level":"1.7","depth":1,"path":"functions.md","ref":"functions.md","articles":[]},"previous":{"title":"কন্সট্যান্টস, এক্সপ্রেশনস ও অপারেটরস","level":"1.5","depth":1,"path":"constants-expressions-operators.md","ref":"constants-expressions-operators.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"control-structures.md","mtime":"2026-05-30T15:33:21.958Z","type":"markdown"},"gitbook":{"version":"6.2.1","time":"2026-05-30T15:56:31.808Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

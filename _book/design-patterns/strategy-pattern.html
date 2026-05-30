@@ -1,0 +1,758 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>স্ট্রাটেজি · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.2.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="iterator-pattern.html" />
+    
+    
+    <link rel="prev" href="facade-pattern.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    শুরুর আগে
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../installation.html">
+            
+                <a href="../installation.html">
+            
+                    
+                    ইনস্টলেশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../basics.html">
+            
+                <a href="../basics.html">
+            
+                    
+                    ল্যাঙ্গুয়েজ ব্যাসিকস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../variables-data-types.html">
+            
+                <a href="../variables-data-types.html">
+            
+                    
+                    ভ্যারিয়েবল ও ডাটা টাইপস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../constants-expressions-operators.html">
+            
+                <a href="../constants-expressions-operators.html">
+            
+                    
+                    কন্সট্যান্টস, এক্সপ্রেশনস ও অপারেটরস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../control-structures.html">
+            
+                <a href="../control-structures.html">
+            
+                    
+                    কন্ট্রোল স্ট্রাকচারস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../functions.html">
+            
+                <a href="../functions.html">
+            
+                    
+                    ফাংশনস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../mastering-array.html">
+            
+                <a href="../mastering-array.html">
+            
+                    
+                    মাস্টারিং এ্যারে
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../common-array-functions.html">
+            
+                <a href="../common-array-functions.html">
+            
+                    
+                    কমন এ্যারে ফাংশনস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../oop/">
+            
+                <a href="../oop/">
+            
+                    
+                    অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../oop/oop-class-and-objects.html">
+            
+                <a href="../oop/oop-class-and-objects.html">
+            
+                    
+                    ক্লাস এবং অবজেক্ট
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../oop/oop-method-and-property.html">
+            
+                <a href="../oop/oop-method-and-property.html">
+            
+                    
+                    মেথড এবং প্রোপার্টি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../oop/oop-static-and-non-static-context.html">
+            
+                <a href="../oop/oop-static-and-non-static-context.html">
+            
+                    
+                    স্ট্যাটিক ও নন-স্ট্যাটিক কনটেক্সট
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../oop/oop-inheritance.html">
+            
+                <a href="../oop/oop-inheritance.html">
+            
+                    
+                    ইনহেরিট্যান্স
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../oop/oop-visibility.html">
+            
+                <a href="../oop/oop-visibility.html">
+            
+                    
+                    ভিজিবিলিটি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.6" data-path="../oop/oop-constructors-and-destructors.html">
+            
+                <a href="../oop/oop-constructors-and-destructors.html">
+            
+                    
+                    কনস্ট্রাক্টর এবং ডেস্ট্রাক্টর
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.7" data-path="../oop/oop-interface.html">
+            
+                <a href="../oop/oop-interface.html">
+            
+                    
+                    ইন্টারফেইস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.8" data-path="../oop/oop-abstraction.html">
+            
+                <a href="../oop/oop-abstraction.html">
+            
+                    
+                    এ্যাবস্ট্রাকশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.9" data-path="../oop/oop-traits.html">
+            
+                <a href="../oop/oop-traits.html">
+            
+                    
+                    ট্রেইটস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.10" data-path="../oop/oop-magic-methods.html">
+            
+                <a href="../oop/oop-magic-methods.html">
+            
+                    
+                    ম্যাজিক মেথডস
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../namespace.html">
+            
+                <a href="../namespace.html">
+            
+                    
+                    নেইমস্পেইস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../filesystem.html">
+            
+                <a href="../filesystem.html">
+            
+                    
+                    ফাইলসিস্টেম
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    ডিজাইন প্যাটার্ন
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="singleton-pattern.html">
+            
+                <a href="singleton-pattern.html">
+            
+                    
+                    সিঙ্গেলটোন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="observer-pattern.html">
+            
+                <a href="observer-pattern.html">
+            
+                    
+                    অবজার্ভার
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="adapter-pattern.html">
+            
+                <a href="adapter-pattern.html">
+            
+                    
+                    অ্যাডাপ্টার
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="factory-pattern.html">
+            
+                <a href="factory-pattern.html">
+            
+                    
+                    ফ্যাক্টরী
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="dependency-injection-pattern.html">
+            
+                <a href="dependency-injection-pattern.html">
+            
+                    
+                    ডিপেন্ডেন্সি ইনজেকশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="facade-pattern.html">
+            
+                <a href="facade-pattern.html">
+            
+                    
+                    ফ্যাসাড
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.13.7" data-path="strategy-pattern.html">
+            
+                <a href="strategy-pattern.html">
+            
+                    
+                    স্ট্রাটেজি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.8" data-path="iterator-pattern.html">
+            
+                <a href="iterator-pattern.html">
+            
+                    
+                    ইটারেটর
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.9" data-path="proxy-pattern.html">
+            
+                <a href="proxy-pattern.html">
+            
+                    
+                    প্রক্সি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.10" data-path="decorator-pattern.html">
+            
+                <a href="decorator-pattern.html">
+            
+                    
+                    ডেকোরেটর
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >স্ট্রাটেজি</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="স্ট্রাটেজি">স্ট্রাটেজি</h1>
+<p><code>Strategy</code> ডিজাইন প্যাটার্ন বিহেভিওরাল ডিজাইন প্যাটার্নের মধ্যে পরে। <code>Strategy</code> এর অর্থ হল কৌশল, কোন কিছু করতে গেলে তার জন্য কৌশল কিংবা এক গুচ্ছ পদক্ষেপ গ্রহণ করাই হল স্ট্রাটেজি।</p>
+<p>প্রোগ্রামিং এর পরিভাষায়, একটি নির্দিষ্ট কাজ সম্পন্ন করতে ভিন্ন ভিন্ন অ্যালগরিদম নির্ধারণ করার স্বাধীনতা থাকাই স্ট্রাটেজি প্যাটার্ন। এই প্যটার্নকে আবার পলিসি প্যাটার্নও বলা হয়ে থাকে।</p>
+<p>ধরুন, আপনি ঢাকা থেকে চট্টগ্রাম যাইতে চাচ্ছেন এরজন্য আপনি চাইলে বাস, ট্রেন কিংবা প্লেন এ করে যাইতে পারেন। এইক্ষেত্রে গন্তব্যস্থল একটিই কিন্তু এটা সম্পন্ন করতে ভিন্ন ভিন্ন স্ট্রাটেজি অনুসরণ করা যায়।</p>
+<p>এবার চলুন একটা বাস্তব ভিত্তিক উদাহরণের মাধ্যমে প্যাটার্নটি বুঝা যাক। প্রথমে চলুন একটা ইন্টারফেইস বানিয়ে ভিন্ন ভিন্ন স্ট্রাটেজি ইমপ্লিমেন্ট করি নিচের মত করে।</p>
+<pre><code class="lang-php"><span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">TravelStrategy</span>
+</span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">travel</span>(<span class="hljs-params"></span>)</span>;
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BusTravelStrategy</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">TravelStrategy</span>
+</span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">travel</span>(<span class="hljs-params"></span>)
+    </span>{
+        <span class="hljs-comment">// Bus travel strategy will goes here</span>
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TrainTravelStrategy</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">TravelStrategy</span>
+</span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">travel</span>(<span class="hljs-params"></span>)
+    </span>{
+        <span class="hljs-comment">// Train travel strategy will goes here</span>
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PlaneTravelStrategy</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">TravelStrategy</span>
+</span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">travel</span>(<span class="hljs-params"></span>)
+    </span>{
+        <span class="hljs-comment">// Plane travel strategy will goes here</span>
+    }
+}
+</code></pre>
+<p>এবার মেইন কনটেক্সট ক্লাস হিসেবে <code>Traveler</code> নামক একটা ক্লাস ডিফাইন করি।</p>
+<pre><code class="lang-php"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Traveler</span>
+</span>{
+    <span class="hljs-keyword">protected</span> <span class="hljs-variable">$traveler</span>;
+
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__construct</span>(<span class="hljs-params">TravelStrategy <span class="hljs-variable">$traveler</span></span>)
+    </span>{
+        <span class="hljs-variable language_">$this</span>-&gt;traveler = <span class="hljs-variable">$traveler</span>;
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">travel</span>(<span class="hljs-params"></span>)
+    </span>{
+        <span class="hljs-variable language_">$this</span>-&gt;traveler-&gt;<span class="hljs-title function_ invoke__">travel</span>();
+    }
+}
+</code></pre>
+<p>পরিশেষে, স্ট্রাটেজি পরিবর্তন করে সহজে আমরা আমাদের কার্য সম্পন্ন করতে পারি।</p>
+<pre><code class="lang-php"><span class="hljs-variable">$traveler</span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Traveler</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">BusTravelStrategy</span>());
+<span class="hljs-variable">$traveler</span>-&gt;<span class="hljs-title function_ invoke__">travel</span>();
+
+<span class="hljs-variable">$traveler1</span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Traveler</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">PlaneTravelStrategy</span>());
+<span class="hljs-variable">$traveler1</span>-&gt;<span class="hljs-title function_ invoke__">travel</span>();
+</code></pre>
+<p>এই চ্যাপ্টারের সোর্স কোডটি <a href="https://github.com/sohelamin/php-design-patterns" target="_blank">এই লিঙ্ক</a> থেকে পাবেন।</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="facade-pattern.html" class="navigation navigation-prev " aria-label="Previous page: ফ্যাসাড">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="iterator-pattern.html" class="navigation navigation-next " aria-label="Next page: ইটারেটর">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"স্ট্রাটেজি","level":"1.13.7","depth":2,"next":{"title":"ইটারেটর","level":"1.13.8","depth":2,"path":"design-patterns/iterator-pattern.md","ref":"design-patterns/iterator-pattern.md","articles":[]},"previous":{"title":"ফ্যাসাড","level":"1.13.6","depth":2,"path":"design-patterns/facade-pattern.md","ref":"design-patterns/facade-pattern.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"design-patterns/strategy-pattern.md","mtime":"2026-05-30T15:33:21.959Z","type":"markdown"},"gitbook":{"version":"6.2.1","time":"2026-05-30T15:56:31.808Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

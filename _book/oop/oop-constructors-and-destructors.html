@@ -1,0 +1,749 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>কনস্ট্রাক্টর এবং ডেস্ট্রাক্টর · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.2.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="oop-interface.html" />
+    
+    
+    <link rel="prev" href="oop-visibility.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    শুরুর আগে
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../installation.html">
+            
+                <a href="../installation.html">
+            
+                    
+                    ইনস্টলেশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../basics.html">
+            
+                <a href="../basics.html">
+            
+                    
+                    ল্যাঙ্গুয়েজ ব্যাসিকস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../variables-data-types.html">
+            
+                <a href="../variables-data-types.html">
+            
+                    
+                    ভ্যারিয়েবল ও ডাটা টাইপস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../constants-expressions-operators.html">
+            
+                <a href="../constants-expressions-operators.html">
+            
+                    
+                    কন্সট্যান্টস, এক্সপ্রেশনস ও অপারেটরস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../control-structures.html">
+            
+                <a href="../control-structures.html">
+            
+                    
+                    কন্ট্রোল স্ট্রাকচারস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../functions.html">
+            
+                <a href="../functions.html">
+            
+                    
+                    ফাংশনস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../mastering-array.html">
+            
+                <a href="../mastering-array.html">
+            
+                    
+                    মাস্টারিং এ্যারে
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../common-array-functions.html">
+            
+                <a href="../common-array-functions.html">
+            
+                    
+                    কমন এ্যারে ফাংশনস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="oop-class-and-objects.html">
+            
+                <a href="oop-class-and-objects.html">
+            
+                    
+                    ক্লাস এবং অবজেক্ট
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="oop-method-and-property.html">
+            
+                <a href="oop-method-and-property.html">
+            
+                    
+                    মেথড এবং প্রোপার্টি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="oop-static-and-non-static-context.html">
+            
+                <a href="oop-static-and-non-static-context.html">
+            
+                    
+                    স্ট্যাটিক ও নন-স্ট্যাটিক কনটেক্সট
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="oop-inheritance.html">
+            
+                <a href="oop-inheritance.html">
+            
+                    
+                    ইনহেরিট্যান্স
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="oop-visibility.html">
+            
+                <a href="oop-visibility.html">
+            
+                    
+                    ভিজিবিলিটি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10.6" data-path="oop-constructors-and-destructors.html">
+            
+                <a href="oop-constructors-and-destructors.html">
+            
+                    
+                    কনস্ট্রাক্টর এবং ডেস্ট্রাক্টর
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.7" data-path="oop-interface.html">
+            
+                <a href="oop-interface.html">
+            
+                    
+                    ইন্টারফেইস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.8" data-path="oop-abstraction.html">
+            
+                <a href="oop-abstraction.html">
+            
+                    
+                    এ্যাবস্ট্রাকশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.9" data-path="oop-traits.html">
+            
+                <a href="oop-traits.html">
+            
+                    
+                    ট্রেইটস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.10" data-path="oop-magic-methods.html">
+            
+                <a href="oop-magic-methods.html">
+            
+                    
+                    ম্যাজিক মেথডস
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../namespace.html">
+            
+                <a href="../namespace.html">
+            
+                    
+                    নেইমস্পেইস
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../filesystem.html">
+            
+                <a href="../filesystem.html">
+            
+                    
+                    ফাইলসিস্টেম
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../design-patterns/">
+            
+                <a href="../design-patterns/">
+            
+                    
+                    ডিজাইন প্যাটার্ন
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../design-patterns/singleton-pattern.html">
+            
+                <a href="../design-patterns/singleton-pattern.html">
+            
+                    
+                    সিঙ্গেলটোন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../design-patterns/observer-pattern.html">
+            
+                <a href="../design-patterns/observer-pattern.html">
+            
+                    
+                    অবজার্ভার
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../design-patterns/adapter-pattern.html">
+            
+                <a href="../design-patterns/adapter-pattern.html">
+            
+                    
+                    অ্যাডাপ্টার
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="../design-patterns/factory-pattern.html">
+            
+                <a href="../design-patterns/factory-pattern.html">
+            
+                    
+                    ফ্যাক্টরী
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="../design-patterns/dependency-injection-pattern.html">
+            
+                <a href="../design-patterns/dependency-injection-pattern.html">
+            
+                    
+                    ডিপেন্ডেন্সি ইনজেকশন
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="../design-patterns/facade-pattern.html">
+            
+                <a href="../design-patterns/facade-pattern.html">
+            
+                    
+                    ফ্যাসাড
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.7" data-path="../design-patterns/strategy-pattern.html">
+            
+                <a href="../design-patterns/strategy-pattern.html">
+            
+                    
+                    স্ট্রাটেজি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.8" data-path="../design-patterns/iterator-pattern.html">
+            
+                <a href="../design-patterns/iterator-pattern.html">
+            
+                    
+                    ইটারেটর
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.9" data-path="../design-patterns/proxy-pattern.html">
+            
+                <a href="../design-patterns/proxy-pattern.html">
+            
+                    
+                    প্রক্সি
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.10" data-path="../design-patterns/decorator-pattern.html">
+            
+                <a href="../design-patterns/decorator-pattern.html">
+            
+                    
+                    ডেকোরেটর
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >কনস্ট্রাক্টর এবং ডেস্ট্রাক্টর</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="কনস্ট্রাক্টর-এবং-ডেস্ট্রাক্টর">কনস্ট্রাক্টর এবং ডেস্ট্রাক্টর</h1>
+<h2 id="কন্সট্রাক্টরস">কন্সট্রাক্টরস</h2>
+<p>যে কোন ক্লাসে আমরা একটি বিশেষ মেথড ডিফাইন করে দিতে পারি । পিএইচপি যখন একটি ক্লাস থেকে অবজেক্ট ইন্সট্যান্স তৈরি করবে তখন নতুন তৈরি হওয়া অবজেক্টটির এই বিশেষ মেথডটি কল করবে । প্রত্যেকটি ইন্সট্যান্স তৈরি হওয়র পরপরই পিএইচপি এই মেথডটি কল করে বিধায় অবজেক্টের নানা বিধ ইনিশিয়ালাইজেশনের কাজ এই মেথডে করা সম্ভব । এই মেথডটি অবজেক্ট তৈরি করার সময় গুরুত্বপূর্ন ভূমিকা পালন করে বিধায় এটাকে কন্সট্রাক্টর ফাংশন বা মেথড বলে ।</p>
+<p>আমরা একটি উদাহরন দেখি:</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TestClass</span> </span>{
+   <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__construct</span>(<span class="hljs-params"></span>) </span>{
+       <span class="hljs-keyword">print</span> <span class="hljs-string">"From the constructor\n"</span>;
+   }
+}
+
+<span class="hljs-variable">$bc</span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">TestClass</span>();
+</code></pre>
+<h2 id="কন্সট্রাক্টরস-ও-ইনহেরিট্যান্স">কন্সট্রাক্টরস ও ইনহেরিট্যান্স</h2>
+<p>চাইল্ড ক্লাস গুলোতে যদি আমরা নিজেদের কনস্ট্রাক্টর ডিফাইন করি তাহলে আর প্যারেন্ট এর কন্সট্রাক্টর অটোমেটিক্যালি কল হয় না । আমাদের কে এক্সপ্লিসিটলি প্যারেন্ট এর কন্সট্রাক্টর কল করার প্রয়োজন হয়।</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TestClass</span> </span>{
+   <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__construct</span>(<span class="hljs-params"></span>) </span>{
+       <span class="hljs-keyword">print</span> <span class="hljs-string">"From the constructor\n"</span>;
+   }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SubClass</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">TestClass</span> </span>{
+   <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__construct</span>(<span class="hljs-params"></span>) </span>{
+       <span class="hljs-built_in">parent</span>::<span class="hljs-title function_ invoke__">__construct</span>();
+       <span class="hljs-keyword">print</span> <span class="hljs-string">"In SubClass constructor\n"</span>;
+   }
+}
+
+<span class="hljs-variable">$test</span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">SubClass</span>();
+</code></pre>
+<p>এখানে <code>parent::__construct();</code> এর মাধ্যমে আমরা প্যারেন্ট এর কন্সট্রাক্টর কল করলাম ।</p>
+<h2 id="ডেস্ট্রাক্টরস">ডেস্ট্রাক্টরস</h2>
+<p>একটা অবজেক্ট এর কাজ যখন শেষ হয়ে যায়, যখন আর কোন রেফারেন্স থাকে না ঐ অবজেক্ট এর তখন ঐ অবজেক্ট এর ডেস্ট্রাক্টর মেথডটি কল করা হয় ।</p>
+<pre><code class="lang-php"><span class="hljs-meta">&lt;?php</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyDestructableClass</span> </span>{
+   <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__construct</span>(<span class="hljs-params"></span>) </span>{
+       <span class="hljs-keyword">print</span> <span class="hljs-string">"In constructor\n"</span>;
+       <span class="hljs-variable language_">$this</span>-&gt;name = <span class="hljs-string">"MyDestructableClass"</span>;
+   }
+
+   <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__destruct</span>(<span class="hljs-params"></span>) </span>{
+       <span class="hljs-keyword">print</span> <span class="hljs-string">"Destroying "</span> . <span class="hljs-variable language_">$this</span>-&gt;name . <span class="hljs-string">"\n"</span>;
+   }
+}
+
+<span class="hljs-variable">$obj</span> = <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyDestructableClass</span>();
+</code></pre>
+<p>সাধারনত অবজেক্ট এ ব্যবহৃত গুরুত্বপূর্ন রিসোর্স ডি-এ্যালোকেট করার জন্য ডেস্ট্রাক্টর মেথড বেশ কাজে দেয় । কনস্ট্রাক্টর এর মত ডেস্ট্রাক্টরের বেলায় প্যারেন্ট এর ডেস্ট্রাক্টর এক্সপ্লিসিটলি কল করতে হয় ।</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="oop-visibility.html" class="navigation navigation-prev " aria-label="Previous page: ভিজিবিলিটি">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="oop-interface.html" class="navigation navigation-next " aria-label="Next page: ইন্টারফেইস">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"কনস্ট্রাক্টর এবং ডেস্ট্রাক্টর","level":"1.10.6","depth":2,"next":{"title":"ইন্টারফেইস","level":"1.10.7","depth":2,"path":"oop/oop-interface.md","ref":"oop/oop-interface.md","articles":[]},"previous":{"title":"ভিজিবিলিটি","level":"1.10.5","depth":2,"path":"oop/oop-visibility.md","ref":"oop/oop-visibility.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"oop/oop-constructors-and-destructors.md","mtime":"2026-05-30T15:33:21.961Z","type":"markdown"},"gitbook":{"version":"6.2.1","time":"2026-05-30T15:56:31.808Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
