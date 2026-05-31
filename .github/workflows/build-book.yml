@@ -10,7 +10,6 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - uses: actions/checkout@v4
 
@@ -45,4 +44,3 @@ steps:
       path: |
         php-learning-book.epub
         php-learning-book.pdf
-```
